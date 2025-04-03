@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ipor="http://www.iportalmais.pt" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ipor:setDocument soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+			<documentclassification xsi:type="ipor:DocumentClassification">
+							 <directory xsi:type="xsd:string">/Consultas</directory>
+							 <iddoc xsi:type="xsd:int">0</iddoc>
+							 <title xsi:type="xsd:string">Consulta {{Input1.text}}</title>
+							 <iddocumenttype xsi:type="xsd:int">2</iddocumenttype>
+							 <idworkflow xsi:type="xsd:int">1</idworkflow>
+			</documentclassification>
+         <content xsi:type="xsd:string">{{ appsmith.store.pdfBase64 }}</content>
+         <session_id xsi:type="xsd:string">{{appsmith.store.sessionid}}</session_id>
+      </ipor:setDocument>
+   </soapenv:Body>
+</soapenv:Envelope>

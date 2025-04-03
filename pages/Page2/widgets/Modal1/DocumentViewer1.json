@@ -1,0 +1,35 @@
+{
+  "animateLoading": true,
+  "bottomRow": 65,
+  "docUrl": "{{ appsmith.store.pdfBase64 }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "docUrl"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "tvkisjnupb",
+  "leftColumn": 0,
+  "mobileBottomRow": 47,
+  "mobileLeftColumn": 9,
+  "mobileRightColumn": 33,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "originalBottomRow": 65,
+  "originalTopRow": 7,
+  "parentColumnSpace": 6.9375,
+  "parentId": "tw3deqdrk3",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "topRow": 7,
+  "type": "DOCUMENT_VIEWER_WIDGET",
+  "version": 1,
+  "widgetId": "5u853rni5c",
+  "widgetName": "DocumentViewer1"
+}

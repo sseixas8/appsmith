@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 28,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "l93nk10xew",
+  "leftColumn": 25,
+  "minWidth": 120,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 24,
+  "needsErrorInfo": false,
+  "onClick": "{{ \n  Api1.run(() => {\n    if (Api1.data.includes('<result xsi:type=\"xsd:boolean\">true</result>')) {\n      storeValue(\"sessionid\", Api1.data.match(/<sessionid.*?>(.*?)<\\/sessionid>/)[1]);\n\t\t\tstoreValue(\"username\", input1.text);\n      navigateTo(\"Page2\");\n    } else {\n      showAlert(\"Login falhou!\", \"error\");\n    }\n  }) \n}}\n",
+  "originalBottomRow": 47,
+  "originalTopRow": 42,
+  "parentColumnSpace": 10.638671875,
+  "parentId": "ber13rorhs",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 41,
+  "text": "Entrar",
+  "topRow": 23,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "2x7fkm7eqo",
+  "widgetName": "Button1"
+}
