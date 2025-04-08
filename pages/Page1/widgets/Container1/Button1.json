@@ -33,7 +33,7 @@
   "mobileRightColumn": 37,
   "mobileTopRow": 24,
   "needsErrorInfo": false,
-  "onClick": "{{ \n  Api1.run(() => {\n    if (Api1.data.includes('<result xsi:type=\"xsd:boolean\">true</result>')) {\n      storeValue(\"sessionid\", Api1.data.match(/<sessionid.*?>(.*?)<\\/sessionid>/)[1]);\n\t\t\tstoreValue(\"username\", input1.text);\n      navigateTo(\"Page2\");\n    } else {\n      showAlert(\"Login falhou!\", \"error\");\n    }\n  }) \n}}\n",
+  "onClick": "{{ \n  Api1.run(() => {\n    if (Api1.data.includes('<result xsi:type=\"xsd:boolean\">true</result>')) {\n      storeValue(\"sessionid\", Api1.data.match(/<sessionid.*?>(.*?)<\\/sessionid>/)[1]);\n\t\t\tstoreValue(\"username\", input1.text);\n      navigateTo(\"Page3\");\n    } else {\n      showAlert(\"Login falhou!\", \"error\");\n    }\n  }) \n}}\n",
   "originalBottomRow": 47,
   "originalTopRow": 42,
   "parentColumnSpace": 10.638671875,

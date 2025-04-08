@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ipor="http://www.iportalmais.pt" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ipor:setEntity soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <info xsi:type="ipor:Entity">
+				 <idatributo xsi:type="xsd:int">0</idatributo>
+				 <nome xsi:type="xsd:string">{{Input1.text}}</nome>
+				 <email xsi:type="xsd:string">{{Input2.text}}</email>
+				 <localidade xsi:type="xsd:string">{{Input3.text}}</localidade>
+				 <telemovel xsi:type="xsd:string">{{PhoneInput1.text}}</telemovel>
+				 <idtipoent xsi:type="ipor:intArray" SOAP-ENC:arrayType="xsd:int[1]">
+   						<item xsi:type="xsd:int">2</item>
+					</idtipoent>
+				 </info>
+      </ipor:setEntity>
+   </soapenv:Body>
+</soapenv:Envelope>
