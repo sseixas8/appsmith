@@ -3,7 +3,7 @@
    <soapenv:Body>
       <ipor:setDocument soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 			<documentclassification xsi:type="ipor:DocumentClassification">
-							 <directory xsi:type="xsd:string">/Consultas</directory>
+							 <directory xsi:type="xsd:string">/{{Input1.text}}</directory>
 							 <iddoc xsi:type="xsd:int">0</iddoc>
 							 <title xsi:type="xsd:string">Consulta {{Input1.text}}</title>
 							 <iddocumenttype xsi:type="xsd:int">2</iddocumenttype>
