@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 6,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -16,7 +16,7 @@
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.25rem",
+  "fontSize": "1.875rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
@@ -30,13 +30,15 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
+  "originalBottomRow": 6,
+  "originalTopRow": 1,
   "overflow": "NONE",
   "parentColumnSpace": 19.15625,
   "parentId": "gk9bt9959b",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 16,
+  "rightColumn": 56,
   "shouldTruncate": false,
   "text": "Registar utente",
   "textAlign": "LEFT",

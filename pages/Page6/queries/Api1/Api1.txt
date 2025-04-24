@@ -1,0 +1,28 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+                  xmlns:ipor="http://www.iportalmais.pt" 
+                  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" 
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ipor:searchDocuments soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <session_id xsi:type="xsd:string">{{appsmith.store.sessionid}}</session_id>
+         <classif xsi:type="ipor:NameValueArray" SOAP-ENC:arrayType="ipor:NameValue[1]">
+            <item xsi:type="ipor:NameValue">
+               <name xsi:type="xsd:string">idsec</name>
+               <value xsi:type="xsd:string">Ze</value>
+            </item>
+         </classif>
+         <other_vars xsi:type="ipor:NameValueArray" SOAP-ENC:arrayType="ipor:NameValue[2]">
+            <item xsi:type="ipor:NameValue">
+               <name xsi:type="xsd:string">limit</name>
+               <value xsi:type="xsd:string">100</value>
+            </item>
+            <item xsi:type="ipor:NameValue">
+               <name xsi:type="xsd:string">get_doc_details</name>
+               <value xsi:type="xsd:string">true</value>
+            </item>
+         </other_vars>
+      </ipor:searchDocuments>
+   </soapenv:Body>
+</soapenv:Envelope>

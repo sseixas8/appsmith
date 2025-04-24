@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ipor="http://www.iportalmais.pt" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ipor:getEntitybyinfo soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <info xsi:type="ipor:Entity">
+				 <nome xsi:type="xsd:string">{{Input1.text}}</nome>
+				 </info>
+      </ipor:getEntitybyinfo>
+   </soapenv:Body>
+</soapenv:Envelope>

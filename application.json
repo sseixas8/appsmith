@@ -6,6 +6,11 @@
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
   "color": "#F1DEFF",
+  "embedSetting": {
+    "height": "720px",
+    "showNavigationBar": false,
+    "width": "1024px"
+  },
   "evaluationVersion": 2,
   "pages": [
     {
@@ -22,6 +27,18 @@
     },
     {
       "id": "Page4",
+      "isDefault": false
+    },
+    {
+      "id": "Page5",
+      "isDefault": false
+    },
+    {
+      "id": "Page6",
+      "isDefault": false
+    },
+    {
+      "id": "Page7",
       "isDefault": false
     }
   ],
