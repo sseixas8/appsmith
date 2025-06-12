@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 11,
+  "bottomRow": 9,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -21,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "i62tujp9n2",
-  "leftColumn": 1,
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,8 +30,8 @@
   "mobileRightColumn": 29,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "originalBottomRow": 11,
-  "originalTopRow": 5,
+  "originalBottomRow": 9,
+  "originalTopRow": 3,
   "overflow": "NONE",
   "parentColumnSpace": 6.9375,
   "parentId": "9y3yf7zu1e",
@@ -43,7 +43,7 @@
   "text": "Deseja criar uma pasta para este utente?",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 5,
+  "topRow": 3,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

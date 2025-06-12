@@ -32,6 +32,8 @@
   "mobileTopRow": 6,
   "needsErrorInfo": false,
   "onClick": "{{Api1.run()}}",
+  "originalBottomRow": 10,
+  "originalTopRow": 6,
   "parentColumnSpace": 16.4833984375,
   "parentId": "shts9tsbyk",
   "parentRowSpace": 10,
